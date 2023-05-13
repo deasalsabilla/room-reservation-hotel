@@ -1,0 +1,35 @@
+
+
+if ($hasil) {
+        echo "<script> alert('Data Berhasil Di ubah')</script>";
+        header("refresh:0,statuskamar.php");
+    } else {
+        echo "<script> alert('Data  tidak Berhasil Di ubah')</script>";
+        header("refresh:0,statuskamar.php");
+    }
+
+
+
+    <table border="1" cellpadding="10" cellspacing="0" width="1365px" style="font-size: 30px;">
+        <tr bgcolor="#ffffff" align="center">
+            <th>No</th>
+            <th>id_booking</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th>Tanggal C/I</th>
+            <th>Tanggal C/O</th>
+        </tr>';
+    $i=1;
+    foreach($data as $row) {
+        $html .= '<tr>
+            <td>'. $i++ .'</td>
+            <td>'.$row["id_booking"].'</td>
+            <td>'.$row["nama"].'</td>
+            <td>'.$row["alamat"].'</td>
+            <td>'.$row["tgl_ci"].'</td>
+            <td>'.$row["tgl_co"].'</td>
+        </tr>';
+    }
+
+
+$html .= '</table>

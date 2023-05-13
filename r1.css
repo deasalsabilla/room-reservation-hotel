@@ -1,0 +1,58 @@
+body{
+    background-color: #D5ECC2;
+}
+
+img{
+    width: 600px;
+    height: 589px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.kolom{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+h1{
+    font-family: Mabook Regular;
+    src: url(MABOOK.TTF);
+}
+
+h2{
+    font-family: Berlion Regular;
+    src: url(BERLION.TTF);
+    font-weight: 800; 
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 150px;
+}
+
+tbl-reservasi{
+    background: blue;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+

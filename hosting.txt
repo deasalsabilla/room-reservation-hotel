@@ -1,0 +1,15 @@
+//FTP Detail
+FTP USERNAME : epiz_32014111
+FTP PASSWORD : xloDR6ZsLLF
+FTP Hostname : ftpupload.net
+FTP Port (optional) : 21
+
+//Account Detail
+Username : epiz_32014111
+Password : xloDR6ZsLLF
+
+//MySQL Detail
+MySQL DB Name       : epiz_32014111_db_reservasi
+MySQL User Name     : epiz_32014111
+MySQL Password      : xloDR6ZsLLF
+MySQL Host Name     : sql211.epizy.com

@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #D5ECC2;
+}
+
+table{
+    margin-top: 15px;
+    font-size: 10pt;
+    border: 1px solid#cccccc;
+}
+
+td{
+    padding: 3px;
+    height: 30px;
+}
+th{
+    height: 20px;
+}
+
+button{
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+h3{
+    font-weight: 800px;
+    font-family: Mabook Regular;
+    src: url(MABOOK.TTF);
+}

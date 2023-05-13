@@ -1,0 +1,17 @@
+form{
+    padding-top: 0px;
+}
+
+.error{
+    padding: 20px;
+    background-color: #f44336;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.sukses{
+    padding: 20px;
+    background-color: #2196F3;
+    color: #fff;
+    margin-bottom: 15px;
+}
